@@ -49,14 +49,14 @@
     },
     "newVMSize": {
       "type": "string",
-      "defaultValue": "Standard_A4"
+      "defaultValue": "Standard_A4",
       "metadata": {
         "description": "The size of the new vm to be created."
       }
     },
     "userName": {
       "type": "string",
-      "defaultValue": "bwinter"
+      "defaultValue": "bwinter",
       "metadata": {
         "description": "The username for the local account that will be created on the new vm."
       }
