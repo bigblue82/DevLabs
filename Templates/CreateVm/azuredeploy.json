@@ -9,7 +9,8 @@
       }
     },
     "existingLabName": {
-      "type": "string",
+	"type": "string",
+     "defaultValue": "brianLab",
       "metadata": {
         "description": "The name of an existing lab where the new vm will be created."
       }
@@ -34,6 +35,7 @@
     },
     "osType": {
       "type": "string",
+      "defaultValue": "Linux",
       "metadata": {
         "description": "OsType of the gallery image"
       }
@@ -47,12 +49,14 @@
     },
     "newVMSize": {
       "type": "string",
+      "defaultValue": "Standard_A4"
       "metadata": {
         "description": "The size of the new vm to be created."
       }
     },
     "userName": {
       "type": "string",
+      "defaultValue": "bwinter"
       "metadata": {
         "description": "The username for the local account that will be created on the new vm."
       }
